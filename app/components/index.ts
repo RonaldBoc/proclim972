@@ -1,0 +1,10 @@
+export { default as Header } from './Header';
+export { default as Footer } from './Footer';
+export { default as Hero } from './Hero';
+export { default as Expertise } from './Expertise';
+export { default as TwoColumnSection } from './TwoColumnSection';
+export { default as Services } from './Services';
+export { default as Products } from './Products';
+export { default as Partners } from './Partners';
+export { default as ContactSection } from './ContactSection';
+export { default as ContactForm } from './ContactForm';

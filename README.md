@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ProClim972 - Site Web Corporatif
 
-## Getting Started
+Site web professionnel pour ProClim972, spécialiste de la climatisation et des énergies renouvelables en Martinique, Guadeloupe et Guyane.
 
-First, run the development server:
+## 🛠 Stack Technique
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Framework**: Next.js 16 (App Router)
+- **Langage**: TypeScript
+- **Styling**: Tailwind CSS
+- **Linting**: ESLint
+
+## 📁 Structure du Projet
+
+```
+app/
+├── components/          # Composants réutilisables
+│   ├── Header.tsx       # En-tête avec navigation
+│   ├── Footer.tsx       # Pied de page
+│   ├── Hero.tsx         # Section héro
+│   ├── Expertise.tsx    # Section expertise
+│   ├── Services.tsx     # Section services
+│   ├── Products.tsx     # Section produits
+│   ├── Partners.tsx     # Section partenaires
+│   ├── ContactForm.tsx  # Formulaire de contact
+│   └── ContactSection.tsx
+├── contact/             # Page contact
+├── prestations/
+│   ├── climatisation/   # Page climatisation
+│   └── photovoltaique/  # Page photovoltaïque
+├── globals.css          # Styles globaux
+├── layout.tsx           # Layout principal
+└── page.tsx             # Page d'accueil
+public/
+└── images/              # Assets images
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Commandes
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+# Développement
+npm run dev
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Build production
+npm run build
 
-## Learn More
+# Lancer en production
+npm run start
 
-To learn more about Next.js, take a look at the following resources:
+# Linting
+npm run lint
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎨 Charte Graphique
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Couleur primaire**: Bleu (#2563eb)
+- **Couleur accent**: Vert (#10b981)
+- **Typographie**: Inter (Google Fonts)
 
-## Deploy on Vercel
+## 📱 Pages
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Accueil** (`/`) - Page principale avec toutes les sections
+- **Contact** (`/contact`) - Formulaire de contact et coordonnées
+- **Climatisation** (`/prestations/climatisation`) - Services de climatisation
+- **Photovoltaïque** (`/prestations/photovoltaique`) - Panneaux solaires
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📞 Informations Entreprise
+
+- **Nom**: ProClim972
+- **Téléphone**: 0596 45 23 67
+- **Email**: contact@proclim972.fr
+- **Zones**: Martinique, Guadeloupe, Guyane
+
+## 📝 License
+
+Site réalisé par [nerdyweb.fr](https://nerdyweb.fr)
